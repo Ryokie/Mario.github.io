@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #4f4f4f;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #7a7978;
+    border: none;
+    color: #1f2937;
+}
+
+.btn-primary:hover {
+    background-color: #31302f;
+    color: #fff;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 2.5rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #ddd;
+    font-weight: 500;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.card-text {
+    color: #666;
+}
+
+#contact {
+    background-color: #f8f8f8;
+    padding: 3rem 0;
+    border-radius: 0.75rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 0.75rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.card-text {
+    color: #333;
+}
+
+#subscribe input[type="text"],
+#subscribe input[type="email"] {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+#subscribe button {
+    background-color: #f1c40f;
+    border: none;
+    color: #1f2937;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+#subscribe button:hover {
+    background-color: #d4ac0d;
+}
+
+footer a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d4ac0d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-3,
+.mb-4,
+.mb-5 {
+    margin-bottom: 1rem;
+}
+
+.pt-5 {
+    padding-top: 3rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.shadow-sm {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
